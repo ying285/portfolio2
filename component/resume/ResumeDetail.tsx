@@ -17,14 +17,14 @@ const ResumeDetail = () => {
             <h3>Work Experiences</h3> 
             
             
-            <div>
+            <div className={styles.resume_worksDetail}>
             <ResumeItem date='2022 Aug - 2022 Oct' company='Hantverkshjäpeonline AB' detail={detail1}/>
             <ResumeItem date='2022 Feb - 2022 May' company='Watersheds AB (internship)' detail={detail2}/>
            </div>
         </div>
         <div className={styles.resume_educations}>
             <h3>Educations</h3>
-            <div>
+            <div className={styles.resume_educationDetail}>
             <Education date='2021 Aug - 2022 Jan' educationTitle='Frontend | IT Education' detail={detail3}/>
             <Education date='2004 Feb - 2007 Jun' educationTitle="Economy & Administration | Master's Degree" detail={detail4}/>
             </div>

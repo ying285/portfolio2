@@ -45,3 +45,19 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .project{
+        &_detail{
+            display: block;
+
+            &_image{
+                margin-left: 16%;
+            }
+
+            &_btn{
+                margin-top: 5%;
+            }
+        }
+    }
+}

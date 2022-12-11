@@ -83,3 +83,36 @@
         
     }
 }
+
+@media screen and (max-width: 900px) {
+    .resume{
+        
+        &_works{
+            display: block;
+
+            &_item{
+                display: block;
+            }
+        }
+
+        &_worksDetail{
+            margin-left: 15%;
+        }
+
+        &_educations{
+            display: block;
+        }
+
+        &_educationDetail{
+            margin-left: 15%;
+        }
+
+        &_skills{
+            display: block;
+
+            &_item{
+                margin-left: 10.5%;
+            }
+        }
+    }
+}
