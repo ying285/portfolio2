@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.resume{
+    min-height: 105vh;
+    font-family: 'Raleway', sans-serif;
+
+    h1{
+        margin: 5% 0  0 15%;
+        
+    }
+
+   
+
+    &_works{
+        display: flex;
+        align-items:baseline;
+        padding: 5% 0;
+
+        h3{
+            font-size: $primary-fontSize;
+            margin-left: 15%;
+            margin-right: 14.5%;
+        }
+       
+
+        &_item{
+            display: flex;
+            align-items:baseline;
+            
+
+            h5{
+                font-size: 1.2rem;
+            }
+
+            span{
+                margin-right: 2rem;
+                font-size: 1.1rem;
+            }
+            
+        }
+
+    }
+
+    &_educations{
+        display: flex;
+        align-items:baseline;
+        //justify-content: space-evenly;
+        
+        border-top: 1px solid rgb(207, 207, 207);
+        padding: 5% 0;
+
+        h3{
+            font-size: $primary-fontSize;
+            margin-left: 15%;
+            margin-right: 20%;
+        }
+    }
+
+    &_skills{
+        display: flex;
+        align-items:baseline;
+        //justify-content: space-evenly;
+        border-top: 1px solid rgb(207, 207, 207);
+        padding: 5% 0;
+
+        h3{
+            margin-left: 15%;
+            margin-right: 36%;
+        }
+
+        &_item{
+          list-style:none;  
+
+          span{
+            font-weight: bold;
+            margin-right: .5rem;
+          }
+
+          li:not(:last-child){
+             margin-bottom: 1rem;
+       }
+        }
+        
+    }
+}

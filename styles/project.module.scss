@@ -1,0 +1,47 @@
+@import './variables.scss';
+
+.project{
+    min-height: 105vh;
+   font-family: 'Raleway', sans-serif;
+    h1{
+        margin: 5% 0  0 15%;
+        
+    }
+
+    &_detail{
+        display: flex;
+        align-items:flex-start;
+        padding: 5% 10% 5% 0;
+
+
+        &_text{
+            margin-left: 16.5%;
+            margin-right: 7%;
+            padding: 0 10% 0 0;
+            
+
+            h3{
+                font-size: $primary-fontSize;
+            }
+
+        }
+
+        &_image{
+           margin-top: 2%;
+        }
+
+        &_btn{
+            margin-top: 30%;
+        }
+
+        
+
+        &_btndetail{
+            color: #fff;
+            width: 8rem;
+            padding: .8rem 0;
+            margin-right: 2rem;
+            border: 0;
+        }
+    }
+}
