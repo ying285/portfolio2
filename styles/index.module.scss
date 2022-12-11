@@ -143,13 +143,18 @@
    
    height: 8rem;
    width: 8rem;
+   border: 1px solid;
    border-radius: 50%;
-   //border: 1px solid;
+   
    display: flex;
    justify-content: center;
    align-items: center;
    margin-right: 1rem;
    font-weight:bold;
+
+   p{
+      font-weight: bold;
+   }
 }
 
 .ContentLinks:not(:last-child){
