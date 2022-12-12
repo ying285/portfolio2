@@ -2,6 +2,7 @@
 
 .resume{
     min-height: 105vh;
+    
     font-family: 'Raleway', sans-serif;
 
     h1{
@@ -112,6 +113,16 @@
 
             &_item{
                 margin-left: 10.5%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume{
+        &_skills{
+            &_item{
+                margin-left: 7.5%;
             }
         }
     }
