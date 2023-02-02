@@ -11,7 +11,7 @@ const ContentText = () => {
     </Slide>
     
     <div className={styles.contentText_detail}>
-      <Slide direction='up'>
+      <Slide direction='up'cascade>
     <p>I am a frontend developer in Stockholm, Sweden.</p>
     <p>Now I am looking for a new opportunity to continue</p>
     <p>my career as frontend developer.</p>
