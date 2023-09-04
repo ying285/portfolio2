@@ -22,7 +22,6 @@ const ProjectDetail:React.FC<Props> = ({title, detail, image, btn1, btn2}) => {
           <p>{detail}</p>
         </div> 
         <div className={styles.project_detail_btn}>
-            <Button title='See App' color='black' link={btn1} target='_blank'  />
 
             <Button title='Code In Github' color='#b36402' link={btn2} target='_blank' /> 
         </div>
@@ -35,9 +34,7 @@ const ProjectDetail:React.FC<Props> = ({title, detail, image, btn1, btn2}) => {
             alt='image'
             />
         </div>
-        <div>
-
-        </div>
+        
        
         
 

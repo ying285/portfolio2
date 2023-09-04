@@ -1,7 +1,7 @@
 import React, { HtmlHTMLAttributes } from 'react'
 import ResumeItem from './ResumeItem'
 import Education from './Education'
-import  {detail1, detail2, detail3, detail4}  from '../content/Data'
+import  {detail0, detail1, detail2, detail3, detail4}  from '../content/Data'
 import styles from '../../styles/resume.module.scss'
 
 
@@ -18,6 +18,7 @@ const ResumeDetail = () => {
             
             
             <div className={styles.resume_worksDetail}>
+            <ResumeItem date='2023 Maj - 2023 Sep' company='Freelancer' detail={detail0}/>
             <ResumeItem date='2022 Aug - 2022 Oct' company='Hantverkshjäpeonline AB' detail={detail1}/>
             <ResumeItem date='2022 Feb - 2022 May' company='Watersheds AB (internship)' detail={detail2}/>
            </div>
@@ -32,12 +33,12 @@ const ResumeDetail = () => {
         <div className={styles.resume_skills}>
             <h3>IT skills</h3>
             <ul className={styles.resume_skills_item}>
-             {/* {detail5.map((item:any)=>(<li key={item}>{item}</li>))} */}
-             <li><span>UI</span>: Figma, Wix, Boostrap, Sass.</li>
-             <li><span>Frontend</span>: Reactjs/Reudx, Javascript, Nextjs​</li>
+             
+             <li><span>UI</span>: Figma, Wix, Boostrap, Sass, TailWind.</li>
+             <li><span>Frontend</span>: Reactjs, Nextjs​</li>
              <li><span>Backend</span>: Nodejs.​</li>
              <li><span>Database</span>: MySQL, MongoDB.</li>
-            <li><span>Others</span>: Typescript, Git.​</li> 
+             <li><span>Others</span>: Typescript, Git Redux.​</li> 
             </ul>
         </div>
      

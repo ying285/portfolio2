@@ -3,6 +3,7 @@
 .project{
     min-height: 105vh;
    font-family: 'Raleway', sans-serif;
+   
     h1{
         margin: 5% 0  0 15%;
         
@@ -17,6 +18,7 @@
         &_text{
             margin-left: 16.5%;
             margin-right: 7%;
+            line-height: 1.5rem;
             padding: 0 10% 0 0;
             
 
@@ -28,10 +30,11 @@
 
         &_image{
            margin-top: 2%;
+           object-fit:cover
         }
 
         &_btn{
-            margin-top: 30%;
+            margin-top: 6rem;
         }
 
         
@@ -46,17 +49,24 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1250px) {
     .project{
         &_detail{
-            display: block;
+            display: flex;
+            flex-direction:column;
+
+            &_text{
+               order:2
+            }
 
             &_image{
                 margin-left: 16%;
+                order:1
             }
 
             &_btn{
-                margin-top: 5%;
+                margin-top: 2rem;
+                
             }
         }
     }
