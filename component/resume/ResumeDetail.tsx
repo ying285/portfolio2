@@ -36,7 +36,7 @@ const ResumeDetail = () => {
              
              <li><span>UI</span>: Figma, Wix, Boostrap, Sass, TailWind.</li>
              <li><span>Frontend</span>: Reactjs, Nextjs​</li>
-             <li><span>Backend</span>: Nodejs.​</li>
+             <li><span>Backend</span>: Nodejs, Python.​</li>
              <li><span>Database</span>: MySQL, MongoDB.</li>
              <li><span>Others</span>: Typescript, Git Redux.​</li> 
             </ul>
