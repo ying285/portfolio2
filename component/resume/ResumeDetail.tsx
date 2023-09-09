@@ -18,8 +18,8 @@ const ResumeDetail = () => {
             
             
             <div className={styles.resume_worksDetail}>
-            <ResumeItem date='2023 Mar - 2023 Sep' company='Freelancer' detail={detail0}/>
-            <ResumeItem date='2022 Aug - 2023 Mar' company='Hantverkshjäpeonline AB' detail={detail1}/>
+            <ResumeItem date='2023 Jun - 2023 Sep' company='Freelancer' detail={detail0}/>
+            <ResumeItem date='2022 Aug - 2023 Jun' company='Hantverkshjäpeonline AB' detail={detail1}/>
             <ResumeItem date='2022 Feb - 2022 May' company='Watersheds AB (internship)' detail={detail2}/>
            </div>
         </div>
