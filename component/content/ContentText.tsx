@@ -15,7 +15,7 @@ const ContentText = () => {
     <div>
     <p>I am a frontend developer in Stockholm, Sweden.</p>
     <p>Now I am looking for a new opportunity to continue</p>
-    <p>my career as frontend developer.</p>
+    <p>my career as frontend developer or data analysis.</p>
     <p>Contact me if you are interested in my experiences.</p>
     </div>
     </Slide>

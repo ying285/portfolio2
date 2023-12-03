@@ -38,7 +38,7 @@ const ResumeDetail = () => {
              <li><span>Frontend</span>: Reactjs, Nextjs​</li>
              <li><span>Backend</span>: Nodejs, Python.​</li>
              <li><span>Database</span>: MySQL, MongoDB.</li>
-             <li><span>Others</span>: Typescript, Git, Prisma, Redux.​</li> 
+             <li><span>Others</span>: Typescript, Git, Prisma, Redux, SSMS, Excel, Power BI.​</li> 
             </ul>
         </div>
      
